@@ -17,7 +17,6 @@
 #
 class mirrors::apt {
 
-  $puppetlabs_key = '4BD6EC30'
 
   exec { 'wget':
     command     => '/usr/bin/wget http://apt.puppetlabs.com/puppetlabs-release-precise.deb',
